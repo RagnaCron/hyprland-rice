@@ -10,21 +10,20 @@ window {
 button {
   border-radius: 0;
   border-color: black;
-  text-decoration-color: #FFFFFF;
   color: #FFFFFF;
-  background-color: #1E1E1E;
+  background-color: #192047;
   border-style: solid;
   border-width: 1px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 25%;
+  background-size: 20%;
 }
 
-button:focus,
 button:active,
 button:hover {
-  background-color: #3700B3;
-  outline-style: none;
+  background-color: #FFFFFF;
+  color: #192047;
+  border: 1px solid #CE2F9D;
 }
 
 #lock {
@@ -33,14 +32,6 @@ button:hover {
 
 #logout {
   background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
-}
-
-#suspend {
-  background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
-}
-
-#hibernate {
-  background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
 }
 
 #shutdown {

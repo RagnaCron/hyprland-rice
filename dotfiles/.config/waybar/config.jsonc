@@ -176,6 +176,6 @@
     "custom/power": {
         "format" : "⏻ ",
     		"tooltip": false,
-        "on-click": "wlogout --protocol layer-shell"
+        "on-click": "wlogout --buttons-per-row 2 --protocol layer-shell --no-span"
     }
 }
