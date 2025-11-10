@@ -34,13 +34,14 @@
                 "6": "6",
                 "7": "7",
                 "8": "8",
+                "9": "9",
 		        "active": "",
 		        "default": ""
 	      },
         "persistent-workspaces": {
-            //"*": 5 // 5 workspaces by default on every monitor
-           "DP-1": 4,
-           "DP-2": 4
+            "*": 4 // 5 workspaces by default on every monitor
+           //"DP-1": 4,
+           //"DP-2": 4
        }
     },
     "keyboard-state": {
