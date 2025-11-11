@@ -1,0 +1,4 @@
+# Add to path
+PATH=$HOME/.local/bin:$PATH
+
+export PATH
