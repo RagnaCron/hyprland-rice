@@ -1,7 +1,7 @@
 if command -v mise &> /dev/null; then
     eval "$(mise activate bash)"
-    if [[ -f /usr/share/mise/completion.bash ]]; then
-        source /usr/share/mise/completion.bash 
+    if [[ -f ~/.local/share/bash-completion/completions/mise ]]; then
+        source ~/.local/share/bash-completion/completions/mise 
         fi
 fi
 
