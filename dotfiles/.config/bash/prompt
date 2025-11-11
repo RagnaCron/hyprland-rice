@@ -1,0 +1,6 @@
+# Technicolor dreams
+force_color_prompt=yes 
+color_prompt=yes
+
+# Simple prompt
+PS1='[\u@\h \W]\$ '
