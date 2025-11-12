@@ -105,7 +105,7 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "on-click": "kitty btop"
+        "on-click": "kitty --class=TUI.tile btop"
     },
     "memory": {
         "format": "{used:0.1f}G "
