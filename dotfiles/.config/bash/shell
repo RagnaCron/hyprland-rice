@@ -11,3 +11,6 @@ fi
 
 # Ensure command hashing is off for mise
 set +h
+
+# Added bash completion for sudo
+complete -cf sudo

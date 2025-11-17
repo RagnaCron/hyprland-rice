@@ -23,3 +23,10 @@ if command -v git &> /dev/null; then
         source /usr/share/git/completion/git-completion.bash
     fi
 fi
+
+if command -v cobra-cli &> /dev/null; then
+    if [[ -f ~/.local/share/bash-completion/completions/cobra ]]; then
+        source ~/.local/share/bash-completion/completions/cobra
+    fi
+fi
+
