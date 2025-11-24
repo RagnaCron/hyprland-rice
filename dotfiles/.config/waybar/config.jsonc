@@ -123,11 +123,11 @@
         "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
-        "format": "{usage}% ",
+        "format": "CPU {usage}%",
         "on-click": "kitty --class=TUI.tile btop"
     },
     "memory": {
-        "format": "{used:0.1f}G "
+        "format": "RAM {used:0.1f}G"
     },
     "power-profiles-daemon": {
       "format": "{icon}",
@@ -193,7 +193,7 @@
     },
     "custom/power": {
         "format" : "⏻ ",
-    		"tooltip": false,
+    	"tooltip": false,
         "on-click": "wlogout --buttons-per-row 2 --protocol layer-shell --no-span"
     }
 }
