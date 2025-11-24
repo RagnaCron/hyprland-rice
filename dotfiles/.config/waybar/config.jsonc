@@ -10,7 +10,8 @@
         "hyprland/workspaces"
     ],
     "modules-center": [
-        "hyprland/window"
+        //"hyprland/window"
+        "clock"
     ],
     "modules-right": [
         //"keyboard-state",
@@ -19,9 +20,9 @@
         "memory",
         "cpu",
         "battery",
-        "clock",
-        "network",
+        //"clock",
         "bluetooth",
+        "network",
         "power-profiles-daemon",
         "custom/power"
     ],
