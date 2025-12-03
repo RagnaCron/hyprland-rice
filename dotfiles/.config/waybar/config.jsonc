@@ -124,7 +124,7 @@
     },
     "cpu": {
         "format": "CPU {usage}%",
-        "on-click": "kitty --class=TUI.tile btop"
+        "on-click": "kitty btop"
     },
     "memory": {
         "format": "RAM {used:0.1f}G"
@@ -189,7 +189,7 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "kitty wiremix"
     },
     "custom/power": {
         "format" : "⏻ ",
