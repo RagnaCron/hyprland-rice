@@ -2,4 +2,5 @@ source ~/.config/bash/shell
 source ~/.config/bash/path
 source ~/.config/bash/aliases
 source ~/.config/bash/init
+source ~/.config/bash/prompt
 # [[ $- == *i* ]] && bind -f ~/.config/bash/inputrc
