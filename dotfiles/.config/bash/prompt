@@ -3,4 +3,4 @@ force_color_prompt=yes
 color_prompt=yes
 
 # Simple prompt
-PS1='\n[\u@\h \W]\$ '
+PS1='[\u@\h \W]\$ '
